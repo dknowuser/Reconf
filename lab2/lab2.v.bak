@@ -1,0 +1,3 @@
+module lab2(input wire clk, input wire reset_n,
+	output wire [7:0] data_out);
+endmodule

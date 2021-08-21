@@ -1,0 +1,7 @@
+
+State Machine - |lab1|SPI_controller:spi|state
+Name state.read_temp state.command_read_temp state.read_accel state.command_read_accel 
+state.command_read_accel 0 0 0 0 
+state.read_accel 0 0 1 1 
+state.command_read_temp 0 1 0 1 
+state.read_temp 1 0 0 1 

@@ -1,0 +1,56 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab1_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/reconf/lab3 {E:/study/Labs/reconf/lab3/lab1.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module lab1
+# -- Compiling module SPI_controller
+# -- Compiling module clk_divider
+# 
+# Top level modules:
+# 	lab1
+# 
+vsim work.lab1
+# vsim work.lab1 
+# Loading work.lab1
+# Loading work.clk_divider
+# Loading work.SPI_controller
+add wave -position end  sim:/lab1/clk
+add wave -position end  sim:/lab1/miso
+add wave -position end  sim:/lab1/sclk
+add wave -position end  sim:/lab1/mosi
+add wave -position end  sim:/lab1/ssb
+add wave -position end  sim:/lab1/accel
+add wave -position end  sim:/lab1/temp
+add wave -position end  sim:/lab1/ready
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: maro4_000  Hostname: LILY-PC  ProcessID: 4756
+# 
+#           Attempting to use alternate WLF file "./wlftwsqt52".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftwsqt52
+# 
+force -freeze sim:/lab1/miso 1 0
+force -freeze sim:/lab1/clk 1 0, 0 {10000 ps} -r {20 ns}
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all

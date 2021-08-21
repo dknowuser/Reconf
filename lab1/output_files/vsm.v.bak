@@ -1,0 +1,3 @@
+module vsm #(parameter time_cnt_len = 5)
+	(input clk, input in, output pulse));
+endmodule

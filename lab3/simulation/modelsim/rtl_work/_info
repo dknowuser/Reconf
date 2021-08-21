@@ -1,0 +1,66 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\reconf\lab3\simulation\modelsim
+vclk_divider
+!i10b 1
+!s100 INAD4`LnJLaj=5RJVB^zK2
+IXBTO3LRh>ldNBHedMBzKH1
+VD<AoMBKb8h;5S?KziXcdQ3
+Z1 dE:\study\Labs\reconf\lab3\simulation\modelsim
+Z2 w1605024378
+Z3 8E:/study/Labs/reconf/lab3/lab1.v
+Z4 FE:/study/Labs/reconf/lab3/lab1.v
+L0 131
+Z5 OV;L;10.1b;51
+r1
+!s85 0
+31
+Z6 !s108 1605024481.433000
+Z7 !s107 E:/study/Labs/reconf/lab3/lab1.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/reconf/lab3|E:/study/Labs/reconf/lab3/lab1.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+E:/study/Labs/reconf/lab3 -O0
+vlab1
+!i10b 1
+!s100 `L3LO`@Iob>Z7h3UN3k6[2
+IQ=jZe8jN=z`;B^9Abg[7e0
+Va_C>46Pl;[:SP02E?0hUV1
+R1
+R2
+R3
+R4
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+vSPI_controller
+!i10b 1
+!s100 bWQQ`_fCO3[XGHFHWm=<h1
+I5SMPibN`B5[bloF[adb3X2
+V6ZOzD7FkodKXBSJkD3mB_2
+R1
+R2
+R3
+R4
+L0 14
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+n@s@p@i_controller

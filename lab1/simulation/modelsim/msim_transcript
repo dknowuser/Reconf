@@ -1,0 +1,30 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab1_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/reconf/lab1 {E:/study/Labs/reconf/lab1/lab1.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module lab1
+# 
+# Top level modules:
+# 	lab1
+# 
+vsim work.lab1
+# vsim work.lab1 
+# Loading work.lab1
+add wave -position end  sim:/lab1/clk
+add wave -position end  sim:/lab1/in
+add wave -position end  sim:/lab1/ind0
+add wave -position end  sim:/lab1/ind1
+force -freeze sim:/lab1/clk 0 0, 1 {50 ps} -r 100
+force -freeze sim:/lab1/in 0 0, 1 {50 ps} -r 100
+run
+run -all

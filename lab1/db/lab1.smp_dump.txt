@@ -1,0 +1,10 @@
+
+State Machine - |lab1|vsm:my_vsm|state
+Name state.out_pulse state.wait_time2 state.load_count2 state.wait_sw state.wait_time1 state.load_count1 state.idle 
+state.idle 0 0 0 0 0 0 0 
+state.load_count1 0 0 0 0 0 1 1 
+state.wait_time1 0 0 0 0 1 0 1 
+state.wait_sw 0 0 0 1 0 0 1 
+state.load_count2 0 0 1 0 0 0 1 
+state.wait_time2 0 1 0 0 0 0 1 
+state.out_pulse 1 0 0 0 0 0 1 

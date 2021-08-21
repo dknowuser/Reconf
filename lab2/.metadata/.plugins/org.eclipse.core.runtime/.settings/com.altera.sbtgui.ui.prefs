@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+newApplicationWizardPage.defaultLocation=E\:\\study\\Labs\\reconf\\lab2\\software\\nios
+newBspWizardPage.defaultLocation=E\:\\study\\Labs\\reconf\\lab2\\software\\nios_bsp
+newBspWizardPage.sopcinfoFile=E\:\\study\\Labs\\reconf\\lab2\\nios.sopcinfo
+newSoftwareExampleWizardPage.defaultLocation=E\:\\study\\Labs\\reconf\\lab2\\software\\nios
+newSoftwareExampleWizardPage.sopcinfoFile=E\:\\study\\Labs\\reconf\\lab2\\nios.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=E\:\\study\\Labs\\reconf\\lab2\\software\\nios_bsp
